@@ -22,7 +22,7 @@
   --accent-color-2: #99aea1;
 
   --highlight-background: var(--grey);
-  --highlight-color: var(--light-grey);
+  --highlight-color: var(--accent-color-2);
 
   /* Content Settings */
   --default-margin: 1px;

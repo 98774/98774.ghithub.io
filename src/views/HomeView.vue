@@ -4,9 +4,7 @@
     <h1>Home</h1>
     <div class="panel">
       <p>
-        Welcome to my site! Feel free to explore and
-        <router-link to="/contact">reach out</router-link>
-        if you have any questions!
+        Welcome to my site! Feel free to reach out with questions or comments.
       </p>
     </div>
     <div class="vertical-flex">

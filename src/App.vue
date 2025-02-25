@@ -2,13 +2,13 @@
   <div id="app">
     <header>
       <div class="links">
-        <router-link to="/" class="nav-link" :class="{ active: $route.path === '/' }"
+        <!-- <router-link to="/" class="nav-link" :class="{ active: $route.path === '/' }"
           >Home</router-link
-        >
+        > -->
         <router-link
-          to="/projects"
+          to="/"
           class="nav-link"
-          :class="{ active: $route.path === '/projects' }"
+          :class="{ active: $route.path === '/projects' || $route.path === '/'  }"
           >Projects</router-link
         >
         <router-link to="/about" class="nav-link" :class="{ active: $route.path === '/about' }"
